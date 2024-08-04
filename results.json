@@ -1,0 +1,712 @@
+[
+  {
+    "uri": "Feature/agregar.feature",
+    "id": "agregar-veh\u00edculo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Agregar veh\u00edculo",
+    "description": "",
+    "elements": [
+      {
+        "id": "agregar-un-vehiculo",
+        "line": 3,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Agregar un vehiculo",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 4,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 2.5051817893981934
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 5,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 1.217447280883789
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "Aplasta el bot\u00f3n agregar",
+            "result": {
+              "status": "passed",
+              "duration": 0.35355186462402344
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "Rellenar el campo Marca Chevrolet",
+            "result": {
+              "status": "passed",
+              "duration": 0.3682069778442383
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 8,
+            "name": "Rellenar el campo Modelo Camioneta",
+            "result": {
+              "status": "passed",
+              "duration": 0.43168020248413086
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "Rellenar el campo Placa ASD-1457",
+            "result": {
+              "status": "passed",
+              "duration": 0.4076063632965088
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "Rellenar el campo A\u00f1o 2010",
+            "result": {
+              "status": "passed",
+              "duration": 0.2968015670776367
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 11,
+            "name": "Rellenar el campo Kilometraje 14000",
+            "result": {
+              "status": "passed",
+              "duration": 0.3103921413421631
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 12,
+            "name": "Seleccionar el tipo de combustible Gasolina",
+            "result": {
+              "status": "passed",
+              "duration": 0.3630800247192383
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 13,
+            "name": "Rellenar el campo Peso 15000",
+            "result": {
+              "status": "passed",
+              "duration": 0.35642170906066895
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 14,
+            "name": "Seleccionar la foto del vehiculo C:\\Users\\cesar\\OneDrive\\Desktop\\req\\carro.jpg",
+            "result": {
+              "status": "passed",
+              "duration": 0.22893190383911133
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 15,
+            "name": "Aplastar el boton para guardar el vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 0.359607458114624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 16,
+            "name": "Visualizar el auto guardado",
+            "result": {
+              "status": "passed",
+              "duration": 0.3529987335205078
+            }
+          }
+        ]
+      },
+      {
+        "id": "ingresar-una-placa-incorrecta",
+        "line": 18,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar una placa incorrecta",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 19,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.9283640384674072
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 20,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 1.0397424697875977
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 21,
+            "name": "Aplasta el bot\u00f3n agregar",
+            "result": {
+              "status": "passed",
+              "duration": 0.3160982131958008
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 22,
+            "name": "Rellenar el campo Marca Chevrolet",
+            "result": {
+              "status": "passed",
+              "duration": 0.3888680934906006
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 23,
+            "name": "Rellenar el campo Modelo Camioneta",
+            "result": {
+              "status": "passed",
+              "duration": 0.3578047752380371
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 24,
+            "name": "Rellenar el campo Placa AS1457",
+            "result": {
+              "status": "passed",
+              "duration": 0.38369297981262207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 25,
+            "name": "Rellenar el campo A\u00f1o 2010",
+            "result": {
+              "status": "passed",
+              "duration": 0.4173552989959717
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 26,
+            "name": "Rellenar el campo Kilometraje 14000",
+            "result": {
+              "status": "passed",
+              "duration": 0.30692315101623535
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 27,
+            "name": "Seleccionar el tipo de combustible Gasolina",
+            "result": {
+              "status": "passed",
+              "duration": 0.33600831031799316
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 28,
+            "name": "Rellenar el campo Peso 15000",
+            "result": {
+              "status": "passed",
+              "duration": 0.432692289352417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 29,
+            "name": "Seleccionar la foto del vehiculo C:\\Users\\cesar\\OneDrive\\Desktop\\req\\carro.jpg",
+            "result": {
+              "status": "passed",
+              "duration": 0.23091363906860352
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 30,
+            "name": "Aplastar el boton para guardar el vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 0.399949312210083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 31,
+            "name": "Visualizar el auto guardado",
+            "result": {
+              "status": "failed",
+              "duration": 5.238068580627441
+            }
+          }
+        ]
+      },
+      {
+        "id": "ingresar-un-a\u00f1o-incorrecto",
+        "line": 33,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar un a\u00f1o incorrecto",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 34,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.8623590469360352
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 35,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 1.1494436264038086
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 36,
+            "name": "Aplasta el bot\u00f3n agregar",
+            "result": {
+              "status": "passed",
+              "duration": 0.4096362590789795
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 37,
+            "name": "Rellenar el campo Marca Chevrolet",
+            "result": {
+              "status": "passed",
+              "duration": 0.45534276962280273
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 38,
+            "name": "Rellenar el campo Modelo Camioneta",
+            "result": {
+              "status": "passed",
+              "duration": 0.4759788513183594
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 39,
+            "name": "Rellenar el campo Placa ASD-1457",
+            "result": {
+              "status": "passed",
+              "duration": 0.4155299663543701
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 40,
+            "name": "Rellenar el campo A\u00f1o 20104",
+            "result": {
+              "status": "passed",
+              "duration": 0.2920970916748047
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 41,
+            "name": "Rellenar el campo Kilometraje 14000",
+            "result": {
+              "status": "passed",
+              "duration": 0.29433560371398926
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 42,
+            "name": "Seleccionar el tipo de combustible Gasolina",
+            "result": {
+              "status": "passed",
+              "duration": 0.37982964515686035
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 43,
+            "name": "Rellenar el campo Peso 15000",
+            "result": {
+              "status": "passed",
+              "duration": 0.3819704055786133
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 44,
+            "name": "Seleccionar la foto del vehiculo C:\\Users\\cesar\\OneDrive\\Desktop\\req\\carro.jpg",
+            "result": {
+              "status": "passed",
+              "duration": 0.28777432441711426
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 45,
+            "name": "Aplastar el boton para guardar el vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 0.5535614490509033
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 46,
+            "name": "Visualizar el auto guardado",
+            "result": {
+              "status": "failed",
+              "duration": 5.241251468658447
+            }
+          }
+        ]
+      },
+      {
+        "id": "ingresar-un-kilometraje-incorrecto",
+        "line": 48,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar un kilometraje incorrecto",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 49,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.8368279933929443
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 50,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 0.8293180465698242
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 51,
+            "name": "Aplasta el bot\u00f3n agregar",
+            "result": {
+              "status": "passed",
+              "duration": 0.38163018226623535
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 52,
+            "name": "Rellenar el campo Marca Chevrolet",
+            "result": {
+              "status": "passed",
+              "duration": 0.36803603172302246
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 53,
+            "name": "Rellenar el campo Modelo Camioneta",
+            "result": {
+              "status": "passed",
+              "duration": 0.3283846378326416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 54,
+            "name": "Rellenar el campo Placa ASD-1457",
+            "result": {
+              "status": "passed",
+              "duration": 0.3785262107849121
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 55,
+            "name": "Rellenar el campo A\u00f1o 2010",
+            "result": {
+              "status": "passed",
+              "duration": 0.38059401512145996
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 56,
+            "name": "Rellenar el campo Kilometraje -14000",
+            "result": {
+              "status": "passed",
+              "duration": 0.4126272201538086
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 57,
+            "name": "Seleccionar el tipo de combustible Gasolina",
+            "result": {
+              "status": "passed",
+              "duration": 0.3320121765136719
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 58,
+            "name": "Rellenar el campo Peso 15000",
+            "result": {
+              "status": "passed",
+              "duration": 0.3412652015686035
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 59,
+            "name": "Seleccionar la foto del vehiculo C:\\Users\\cesar\\OneDrive\\Desktop\\req\\carro.jpg",
+            "result": {
+              "status": "passed",
+              "duration": 0.25357675552368164
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 60,
+            "name": "Aplastar el boton para guardar el vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 0.4840433597564697
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 61,
+            "name": "Visualizar el auto guardado",
+            "result": {
+              "status": "failed",
+              "duration": 5.354981422424316
+            }
+          }
+        ]
+      },
+      {
+        "id": "ingresar-un-peso-incorrecto",
+        "line": 63,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar un peso incorrecto",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 64,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.8332538604736328
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 65,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 0.9889872074127197
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 66,
+            "name": "Aplasta el bot\u00f3n agregar",
+            "result": {
+              "status": "passed",
+              "duration": 0.4052762985229492
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 67,
+            "name": "Rellenar el campo Marca Chevrolet",
+            "result": {
+              "status": "passed",
+              "duration": 0.3891177177429199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 68,
+            "name": "Rellenar el campo Modelo Camioneta",
+            "result": {
+              "status": "passed",
+              "duration": 0.3562934398651123
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 69,
+            "name": "Rellenar el campo Placa ASD-1457",
+            "result": {
+              "status": "passed",
+              "duration": 0.48572778701782227
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 70,
+            "name": "Rellenar el campo A\u00f1o 2010",
+            "result": {
+              "status": "passed",
+              "duration": 0.3802027702331543
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 71,
+            "name": "Rellenar el campo Kilometraje 14000",
+            "result": {
+              "status": "passed",
+              "duration": 0.3631758689880371
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 72,
+            "name": "Seleccionar el tipo de combustible Gasolina",
+            "result": {
+              "status": "passed",
+              "duration": 0.30632686614990234
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 73,
+            "name": "Rellenar el campo Peso -15000",
+            "result": {
+              "status": "passed",
+              "duration": 0.3381214141845703
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 74,
+            "name": "Seleccionar la foto del vehiculo C:\\Users\\cesar\\OneDrive\\Desktop\\req\\carro.jpg",
+            "result": {
+              "status": "passed",
+              "duration": 0.22351837158203125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 75,
+            "name": "Aplastar el boton para guardar el vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 0.41777825355529785
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 76,
+            "name": "Visualizar el auto guardado",
+            "result": {
+              "status": "failed",
+              "duration": 5.2561352252960205
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
